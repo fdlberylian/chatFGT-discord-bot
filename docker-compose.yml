@@ -3,8 +3,8 @@ version: "3"
 services:
   chatgpt-discord-bot:
     build: .
-    image: chatgpt-discord-bot
-    container_name: chatgpt-discord-bot
+    image: chatfgt-discord-bot
+    container_name: chatfgt-discord-bot
     env_file:
       - .env
     restart: unless-stopped
